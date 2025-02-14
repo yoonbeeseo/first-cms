@@ -5,3 +5,5 @@ export const 학생변수명 = {
   isMale: false,
   실직자임: true, //false
 }
+
+export const m1 = "Dexter Yoon"
