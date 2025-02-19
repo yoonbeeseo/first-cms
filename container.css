@@ -1,0 +1,26 @@
+/* index.css */
+:root {
+  --themeColor: royalblue;
+}
+
+/* Mobile  767px까지 */
+@media screen and (max-width: 767px) {
+  .con {
+    border: 1px solid red;
+    color: var(--themeColor);
+  }
+}
+
+/* Tablet 768~1199까지 */
+@media screen and (max-width: 1199px) {
+  .con {
+    border-color: blue;
+  }
+}
+
+/* Desktop 1200px부터 */
+@media screen and (min-width: 1200px) {
+  .con {
+    border: none;
+  }
+}
